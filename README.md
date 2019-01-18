@@ -3,10 +3,10 @@
 # Installtion steps:
 
 - Clone / Download the e2e-tests repository to your local machine
-- Open the project with your favourite editor (for example: PhpStrom)
+- Open the project with your favourite editor (for example: PhpStorm)
 - For the test environment setup, you need to install NODE and NPM 
 - With terminal command line "npm install" you can install npm (node.js package manager)
-- Also you can download the Node.js and install. Url: https://nodejs.org/en/download/
+- You can download the Node.js and install. Url: https://nodejs.org/en/download/
 - After installing them you should check the version of them by typing in terminal: node - v  & npm -v
 - Now you are ready to start the test with command: npm run acceptance-tests
 
