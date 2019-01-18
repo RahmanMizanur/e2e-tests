@@ -13,7 +13,7 @@
 # WebDriver:
 - BrowserStack is usded for Selenium Webdriver tests with WebdriverIO
 - BrowserStack already setup in local.json file of the config folder 
-- You can see the running automatin in Browser with BrowserStack
+- You can see the running automation video in Browser with BrowserStack
 
 
 # How to start the test:
@@ -21,7 +21,7 @@
 - after entering the above command, automation will start and will give you all the steps with OK result like below:
 
 Search --
-  Search for TITANIC movie
+   Search for TITANIC movie
     I am on page "https://www.imdb.com/"
    User clicks on SEARCH Navigation Bar
     I click "#navbar-query"
@@ -35,6 +35,5 @@ Search --
   ✔ OK in 11030ms
 
   OK  | 1 passed  
-
 
 
