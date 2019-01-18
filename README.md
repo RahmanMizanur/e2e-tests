@@ -3,22 +3,26 @@
 # Installtion steps:
 
 - Clone / Download the e2e-tests repository to your local machine
-- Open the project with your favourite editor (for example PhpStrom)
-- If you are not woking with Javascript, You need to install NODE and NPM 
-- With terminal command line "npm install" install npm (node.js package manager)
-- Download the Node.js and install. Download url: https://nodejs.org/en/download/
+- Open the project with your favourite editor (for example: PhpStrom)
+- For the test environment setup, you need to install NODE and NPM 
+- With terminal command line "npm install" you can install npm (node.js package manager)
+- Also you can download the Node.js and install. Url: https://nodejs.org/en/download/
 - After installing them you should check the version of them by typing in terminal: node - v  & npm -v
 - Now you are ready to start the test with command: npm run acceptance-tests
 
 # WebDriver:
 - BrowserStack is usded for Selenium Webdriver tests with WebdriverIO
 - BrowserStack already setup in local.json file of the config folder 
-- You can see the running automation video in Browser with BrowserStack
+- You can see the running automation video in Browser with BrowserStack. I have uploaded one video of the test.
 
+# References:
+- https://codecept.io/acceptance
+- https://codecept.io/helpers/WebDriverIO
+- https://www.browserstack.com/
 
 # How to start the test:
 - with terminal command: npm run acceptance-tests
-- after entering the above command, automation will start and will give you all the steps with OK result like below:
+- after entering the above command, automation will start and complete all the steps with OK result like below:
 
 Search --
    Search for TITANIC movie
