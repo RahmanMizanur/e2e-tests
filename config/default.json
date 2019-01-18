@@ -1,0 +1,41 @@
+{
+  "output": "./acceptance/output",
+  "helpers": {
+
+    "WebDriverIO": {
+      "url": "https://www.imdb.com",
+      "browser" : "chrome",
+      "desiredCapabilities": {
+        "os" : "OS X",
+        "os_version" : "High Sierra",
+        "browser_version" : "68.0"
+      },
+      "restart": true,
+      "windowSize": "maximize",
+      "timeouts": {
+        "script": 10000,
+        "page load": 10000,
+        "implicit": 10000
+      }
+    },
+
+    "MyHelper": {
+      "require": "./acceptance/module.js"
+    }
+
+  },
+
+  "include": {
+    "I": "./acceptance/steps_file.js",
+    "searchFragment": "./acceptance/fragments/search.js",
+    "registerFragment": "./acceptance/fragments/register.js"
+  },
+
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "timeout": 10000,
+  "tests": "./acceptance/scenarios/search/search-movie.test.js",
+  "name": "app"
+}
